@@ -24,11 +24,12 @@ const InteractiveSVG: React.FC = () => {
   };
 
   return (
-    <div className="flex flex-row w-full h-full">
-      {/* <div
+    <div className="">
+     {/* <div
         className="svg-container"
         dangerouslySetInnerHTML={{ __html: svgRaw }}
-      /> */}
+      />  */}
+
       <div
         className="svg-container"
         dangerouslySetInnerHTML={{ __html: svgRaw2 }}
